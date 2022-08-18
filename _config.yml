@@ -13,7 +13,7 @@ presskit_download_link                    : /press-kit                          
 app_icon                                  : assets/away/app_icon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Away for Twitter                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : Free                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Check social media less. Edit this.
+app_description                           : The first Twitter client to help you use Twitter less, not more.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -31,50 +31,48 @@ github_username                           : hybridcattt
 youtube_username                          :
 
 
-
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
-    
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : New messages
+    emoji                                 : 💬
+    description                           : Read your newest messages, decide if they are worth opening Twitter for
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title                                 : Stats for recent tweets
+    emoji                                 : 💯
+    description                           : Check replies to your tweets, as well as the number of quotes, retweets and likes
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+  - title                                 : Number of followers
+    emoji                                 : 👯‍♀️
+    description                           : Know if your account is growing. Rounded or precise - choose how much you care
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
+  - title                                 : Days since last tweeted
+    emoji                                 : 📆
+    description                           : Know if it's been a while since you posted to keep an active profile
 
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+  - title                                 : Use with any Twitter app
+    emoji                                 : ↗️
+    description                           : Deep links available to your favorite Twitter app or browser
 
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
+  - title                                 : Multiple accounts
+    emoji                                 : 👥
+    description                           : Monitor multiple Twitter accounts in one app
 
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
+features2Title                           : You choose what's important
 
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+features2                                 :
 
+  - title                                 : Choose the stats 
+    emoji                                 : 🙈
+    description                           : Don't care about likes? Got it. Don't want the exact follower count? Sure.
+
+  - title                                 : All data stays on device
+    emoji                                 : 🕵️‍♀️
+    description                           : Data downloaded from Twitter servers stays local. No one has access to your data, except you
+
+  - title                                 : No push notifications
+    emoji                                 : 📵
+    description                           : You decide, when it's time to engage
 
 
 # Theme Settings
