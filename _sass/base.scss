@@ -47,6 +47,24 @@ a:active {
 	text-decoration: none;
 }
 
+article > h1  {
+	a:link {
+		color: $primary-text-color;
+	  }
+	  
+	  a:visited {
+		color: $primary-text-color;
+	  }
+	  
+	  a:hover {
+		color: $primary-text-color;
+	  }
+	  
+	  a:active {
+		color: $primary-text-color;
+	  }
+}
+
 // Shadows
 $drop-shadow: 	drop-shadow(0px 5px 10px rgba(#000, 0.1)) 
 				drop-shadow(0px 1px 1px rgba(#000, 0.2)

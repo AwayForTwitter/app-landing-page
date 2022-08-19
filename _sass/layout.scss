@@ -555,10 +555,13 @@ nav > ul li a:active {
 	line-height: 1.5;
 }
 
-.feature-parent > .downloadButtonsContainer {
-	margin-top: 100px;
+footer > .downloadButtonsContainer {
 	display: flex;
 	justify-content: center;
+}
+
+.container > footer {
+	margin-top: 100px;
 }
 
 @media only screen and (max-width: 992px) {
