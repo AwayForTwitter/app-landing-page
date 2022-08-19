@@ -5,3 +5,8 @@
   [headers.values]
     #  Multi-value headers are expressed with multi-line strings
 	cache-control= "max-age=604800" # 7 days
+
+[[redirects]]
+  from = "/press-kit"
+  to = "https://impresskit.net/away"
+  force = false
