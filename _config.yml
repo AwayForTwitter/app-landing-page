@@ -1,5 +1,5 @@
 #page title
-page_title                                :  Away for Twitter                                         # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                :  Away for Twitter - check social media less                                       # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 1580040911                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -13,7 +13,8 @@ presskit_download_link                    : /press-kit                          
 app_icon                                  : assets/away/app_icon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Away for Twitter                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : Free                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : The first Twitter client to help you use Twitter less, not more.
+app_description                           : The first Twitter client to help you use Twitter less, not more. Available on iOS and macOS.
+app_description_meta                      : The first Twitter client to help you use Twitter less, not more. Available on iOS and macOS. Monitor all your accounts in one app - check new messages, replies and stats of your tweets, followers and more.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
