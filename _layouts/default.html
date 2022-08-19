@@ -16,13 +16,6 @@
                             </clipPath>
                         </svg>
 
-                        <div class="videoContainer hidden">
-                            <video class="screenvideo" autoplay="autoplay" controls="controls">
-                            </video>
-                        </div>  
-                        
-                        <img class="iphoneScreen hidden" src="" alt="">
-
                         {% include screencontent.html %}
 
                     </div>
@@ -35,7 +28,7 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <img class="appIconLarge" src="{{ site.app_icon | relative_url }}">
+                            <img class="appIconLarge" src="{{ site.app_icon | relative_url }}" alt="The app icon of Away for Twitter iOS/macOS app. A bird looking at the horizon.">
                         </div>
                         <div class="appNamePriceContainer">
                             <h1 class="appName">
@@ -50,16 +43,13 @@
                                 {{ site.app_description }}
                             </p>
                         </div>
-                        <div class="downloadButtonsContainer">
-                            {% if site.playstore_link %}
-                                <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
-                            {% endif %}
-                            <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
-                        </div>
+                        {% include downloadbuttons.html %}
                     </div>
+                    <div class="feature-parent">
                     {% include features.html %}
+                    </div>
                     {% include footer.html %}
-                    {% include appstoreimages.html %}
+                    <!-- {% include appstoreimages.html %} -->
                 </div>
             </div>
         </div>

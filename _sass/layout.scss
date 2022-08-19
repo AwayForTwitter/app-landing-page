@@ -471,8 +471,20 @@ nav > ul li a:active {
 
 // Feature List
 
-.features {
+.feature-parent {
 	grid-area: c;
+}
+
+.features-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 93px;
+	text-align: center;
+	align-self: center;
+}
+
+.features {
 	display: flex;
 	flex: 0 1 auto;
 	align-content: flex-start;
@@ -502,20 +514,27 @@ nav > ul li a:active {
 	padding-left: 0px;
 }
 
-.iconBack {
-	color: $feature-icons-background-color;
-}
-
 .iconTop {
 	color: $feature-icons-foreground-color;
 }
 
-.socialIconBack {
-	color: $social-icons-background-color;
+.iconStack {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	background-color: $feature-icons-background-color;
+	border-radius: 50%;
+}
+
+.icon {
+	width: 50%;
+	height: 50%;
 }
 
 .socialIconTop {
-	color: $social-icons-foreground-color;
+	background-color: $social-icons-foreground-color;
 }
 
 .featureText {
@@ -532,7 +551,29 @@ nav > ul li a:active {
 	line-height: 1.5;
 }
 
+.features-header > h2 {
+	line-height: 1.5;
+}
+
+footer > .downloadButtonsContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.container > footer {
+	margin-top: 100px;
+}
+
 @media only screen and (max-width: 992px) {
+
+	.feature-parent {
+
+	}
+
+	.features-header {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
 
 	.features {
 		flex-grow: 1;
@@ -568,6 +609,15 @@ nav > ul li a:active {
 }
 
 @media only screen and (max-width: 375px) {
+
+	.feature-parent {
+
+	}
+
+	.features-header {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
 
 	.features {
 		flex-grow: 1;
@@ -628,6 +678,14 @@ footer {
 	display: flex;
 	flex: 0 0 100%;
 	justify-content: center;
+}
+
+.footerIcons a {
+	margin-right: 15px;
+}
+
+.footerIcons a:last-child {
+	margin-right: 0px;
 }
 
 .footerLinks {

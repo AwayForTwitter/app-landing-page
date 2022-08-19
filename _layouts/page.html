@@ -12,11 +12,15 @@
         <div class="container subPageContainer">
         {% include header.html %}
             <article class="page markdown-body">
+                <h1 itemprop="headline"><a href="{{ page.url }}">{{ page.title | escape }}</a></h1>
                 {{ content }}
             </article>
         </div>
-        {% include appstoreimages.html %}
+        <!-- {% include appstoreimages.html %} -->
+        {% include footer.html %}
+
     </div>
+
 </body>
 
 </html>

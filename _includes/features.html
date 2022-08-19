@@ -5,9 +5,40 @@
     {% if feature.title %}
     <div class="feature">
         <div>
-            <span class="fa-stack fa-1x">
-                <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-{{ feature.fontawesome_icon_name }} fa-stack-1x"></i>
+            <!-- <i class="iconTop">{{ feature.emoji }}</i> -->
+            <span class="iconStack">
+                <i class="iconTop">{{ feature.emoji }}</i>
+            </span>
+        </div>
+        <div class="featureText">
+            <h3>
+                {{ feature.title }}
+            </h3>
+            <p>
+                {{ feature.description }}
+            </p>
+        </div>
+    </div>
+    {% endif %}
+
+    {% endfor %}
+
+</div>
+
+<div class="features-header">
+    <h2>{{ site.features2Title }}</h2>
+</div>
+
+<div class="features">
+
+    {% for feature in site.features2 %}
+
+    {% if feature.title %}
+    <div class="feature">
+        <div>
+            <!-- <i class="iconTop">{{ feature.emoji }}</i> -->
+            <span class="iconStack">
+                <i class="iconTop">{{ feature.emoji }}</i>
             </span>
         </div>
         <div class="featureText">
