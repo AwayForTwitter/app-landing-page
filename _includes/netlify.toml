@@ -9,4 +9,4 @@
 [[redirects]]
   from = "/press-kit"
   to = "https://impresskit.net/away"
-  force = false
+  status = 302
