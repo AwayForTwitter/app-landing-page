@@ -528,12 +528,13 @@ nav > ul li a:active {
 	border-radius: 50%;
 }
 
-.socialIconBack {
-	color: $social-icons-background-color;
+.icon {
+	width: 50%;
+	height: 50%;
 }
 
 .socialIconTop {
-	color: $social-icons-foreground-color;
+	background-color: $social-icons-foreground-color;
 }
 
 .featureText {
@@ -668,6 +669,14 @@ footer {
 	display: flex;
 	flex: 0 0 100%;
 	justify-content: center;
+}
+
+.footerIcons a {
+	margin-right: 15px;
+}
+
+.footerIcons a:last-child {
+	margin-right: 0px;
 }
 
 .footerLinks {
