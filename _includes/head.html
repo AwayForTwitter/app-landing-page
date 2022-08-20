@@ -5,9 +5,11 @@
 	<base target="_blank">
 
 	<title class="pageTitle">{{ site.page_title }}</title>
-	<meta name="description" content="{{ site.app_description }}">
+	<meta name="description" content="{{ site.app_description_meta }}">
 
-	<link rel="shortcut icon" href="{{ site.app_icon | relative_url }}">
+	{% include favicons.html %}
+
+	<meta name="google-site-verification" content="bpZJQXgZm8jHP5dqnhUBIbC_7ah_CLg1AK9_sY0ogJY" />
 
 	<!-- Smart App Banner -->
 	{% if site.enable_smart_app_banner %}
@@ -16,5 +18,7 @@
 
 	<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
 
-	{%- include goatcounter.html -%}
+	{%- if jekyll.environment == 'production' and site.goatcounter_id -%}
+  	{%- include goatcounter.html -%}
+  	{%- endif -%}
 </head>
