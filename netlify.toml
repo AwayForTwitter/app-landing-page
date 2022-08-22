@@ -10,3 +10,9 @@
   from = "/press-kit"
   to = "https://impresskit.net/away"
   status = 302
+
+[[redirects]]
+  from = "/app_preflight*"
+  to = "/api/app_preflight_none.json/:splat"
+  status = 200
+
