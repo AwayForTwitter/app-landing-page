@@ -6,12 +6,12 @@
 
 # Production context: all deploys from the Production branch
 [context.production]
-  environment = { JEKYLL_ENV=production }
+  environment = { JEKYLL_ENV="production" }
 
 # Deploy Preview context: all deploys generated from
 # a pull/merge request will inherit these settings.
 [context.deploy-preview]
-  environment = { JEKYLL_ENV=production }
+  environment = { JEKYLL_ENV="production" }
   
 [[headers]]
   for = "/assets/*"
