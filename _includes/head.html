@@ -4,12 +4,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<base target="_blank">
 
-	<title class="pageTitle">{{ site.page_title }}</title>
-	<meta name="description" content="{{ site.app_description_meta }}">
+	<!-- <title class="pageTitle">{{ site.page_title }}</title> -->
 
 	{% include favicons.html %}
 
-	<meta name="google-site-verification" content="bpZJQXgZm8jHP5dqnhUBIbC_7ah_CLg1AK9_sY0ogJY" />
+	{% seo %}
 
 	<!-- Smart App Banner -->
 	{% if site.enable_smart_app_banner %}
