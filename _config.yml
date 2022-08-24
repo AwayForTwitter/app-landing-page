@@ -3,19 +3,25 @@
 
 # SEO
 
-title: "Away for Twitter"
-tagline: "Check social media less - iOS and macOS app"
-description: "The first Twitter client to help you use Twitter less, not more. Available on iOS and macOS. Monitor all your accounts in one app - check new messages, replies and stats of your tweets, followers and more."
+title: "Away for Twitter - monitor your accounts"
+tagline: "iOS and macOS app"
+description: "The first Twitter client to help you use Twitter less, not more. Available on iOS and macOS. Dashboard for monitoring all your accounts in one app - check new messages, replies and stats of your tweets, followers and more."
 twitter:
    username: get_away_app
-   card: aaa
-image:
-   path: "/assets/away/away-for-twitter-hero-img.jpg"
-   alt: "New app: the first Twitter client to help you use Twitter less, not more. Available on iOS and macOS. Monitor all your accounts in one app - check new messages, replies and stats of your tweets, followers and more."
-logo:               "/assets/away/away-for-twitter-hero-img.jpg"
+
 author:
    twitter: hybridcattt
-google_site_verification: "bpZJQXgZm8jHP5dqnhUBIbC_7ah_CLg1AK9_sY0ogJY"
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      twitter: 
+        card: "summary_large_image"
+      image:
+        path: "/assets/away/away-for-twitter-hero-img.jpg"
+        alt: "New app: the first Twitter client to help you use Twitter less, not more. Dashboard for monitoring all your accounts in one app - check new messages, replies and stats of your tweets, followers and more. Available on iOS and macOS."
 
 # App Info
 ios_app_id                                : 1580040911                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
