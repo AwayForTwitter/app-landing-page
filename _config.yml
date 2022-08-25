@@ -1,6 +1,9 @@
 #page title
 # page_title                                :  Away for Twitter - check social media less                                       # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://awayfortwitter.com" # the base hostname & protocol for your site, e.g. http://example.com
+
 # SEO
 
 title: "Away for Twitter - monitor your accounts"
@@ -20,7 +23,7 @@ defaults:
       twitter: 
         card: "summary_large_image"
       image:
-        path: "https://awayfortwitter.com/assets/away/away-for-twitter-hero-img.jpg"
+        path: "/assets/away/away-for-twitter-hero-img.jpg"
         alt: "New app: the first Twitter client to help you use Twitter less, not more. Dashboard for monitoring all your accounts in one app - check new messages, replies and stats of your tweets, followers and more. Available on iOS and macOS."
 
 # App Info
