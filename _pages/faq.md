@@ -5,7 +5,8 @@ header_title: FAQ
 include_in_header: true
 ---
 
-If you don't find an answer for your questions below, don't hesitate to reach out via email [awayfortwitter@hybridcattt.com](mailto:awayfortwitter@hybridcattt.com)!
+Thank you for your interest in the Away app ☺️ Hope you find your answers below. 
+If you don't find what you're looking for, don't hesitate to reach out via email [awayfortwitter@hybridcattt.com](mailto:awayfortwitter@hybridcattt.com)!
 
 ## Is it safe to enter my Twitter credentials in the app?
 
