@@ -5,7 +5,10 @@ header_title: What's New
 include_in_header: true
 ---
 
-<br>
+Thank you for your interest in the Away app ☺️ The app is in active development, and I plan to continue improving the app and keep adding features. Because this is a side project, it doesn't always go as fast as I'd like. 
+I'm always interested to connect and hear your feedback, so don't hesitate to reach out via email [awayfortwitter@hybridcattt.com](mailto:awayfortwitter@hybridcattt.com)!
+
+<br> 
 
 ### `Latest`
 # **Version 1.1**

@@ -3,11 +3,15 @@ layout: page
 title: Terms and Conditions
 header_title: Terms
 include_in_header: false
+description: Thank you for your interest in the Away app ☺️ 
 ---
 
-_v. 0.2_
+_v.0.2_
 <br>
 _Updated on 19 August 2022_
+
+Thank you for your interest in the Away app ☺️  
+You may contact us at any time by sending an email to [awayfortwitter@hybridcattt.com](mailto:awayfortwitter@hybridcattt.com).
 
 ## 1. General 
 
