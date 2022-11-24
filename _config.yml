@@ -39,7 +39,7 @@ app_icon                                  : assets/away/app_icon_tiny.jpeg      
 app_icon_tiny                             : assets/away/app_icon_tiny.jpeg
 app_name                                  : Away for Twitter                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : Free                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : The first Twitter client to help you use Twitter less, not more. Available on iOS and macOS.
+app_description                           : Monitor all your Twitter accounts in one app, from a distance. Available on iOS and macOS.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
