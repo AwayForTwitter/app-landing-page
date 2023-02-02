@@ -24,11 +24,6 @@
   to = "https://impresskit.net/away"
   status = 302
 
-[[redirects]]
-  from = "/app_preflight*"
-  to = "/api/app_preflight_none.json/:splat"
-  status = 200
-
 [[plugins]]
 package = "netlify-plugin-checklinks"
 
@@ -37,3 +32,12 @@ package = "netlify-plugin-checklinks"
   # You can mark some check as todo, which will execute the check, but allow failures.
   # todoPatterns is an array of strings you can match against failing reports
   todoPatterns = ["/press-kit"]
+
+
+[[edge_functions]]
+  function = "app_preflight_dev"
+  path = "/app_preflight_dev"
+
+[[edge_functions]]
+  function = "app_preflight"
+  path = "/app_preflight"
