@@ -5,7 +5,7 @@ export default async (request: Request, context: Context) => {
   
   const url = new URL(request.url)
   const search = url.search || "none"
-  const decodedParams = decodeURIComponent(search).replace(/^\?/, '')
+  const decodedParams = decodeURI(search).replace(/^\?/, '')
 
   const response = await fetch("https://awayfortwitter.goatcounter.com/api/v0/count", {
     method: 'POST',
