@@ -5,7 +5,7 @@ export default async (request: Request, context: Context) => {
   
   const url = new URL(request.url)
   const search = url.search || "none"
-  const decoded = decodeURIComponent(search)
+  const decoded = decodeURIComponent(search).replace(/^\?/, '')
 
   const params = new URLSearchParams(search)
   const version = params.get('v') || "none"
