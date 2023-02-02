@@ -24,11 +24,6 @@
   to = "https://impresskit.net/away"
   status = 302
 
-[[redirects]]
-  from = "/app_preflight*"
-  to = "/api/app_preflight_none.json/:splat"
-  status = 200
-
 [[plugins]]
 package = "netlify-plugin-checklinks"
 
@@ -42,3 +37,7 @@ package = "netlify-plugin-checklinks"
 [[edge_functions]]
   function = "app_preflight_dev"
   path = "/app_preflight_dev"
+
+[[edge_functions]]
+  function = "app_preflight"
+  path = "/app_preflight"
