@@ -2,22 +2,17 @@ import type { Context } from "https://edge.netlify.com";
 
 export default async (request: Request, context: Context) => {
   const token = Deno.env.get("GOAT_TOKEN");
-  console.log("token")
-  console.log(`Bearer ${token}`)
+  
   const response = await fetch("https://awayfortwitter.goatcounter.com/api/v0/count", {
     method: 'POST',
     body: JSON.stringify({
       no_sessions: true,
-      "hits": [{"path": "/app_preflight"}],
+      "hits": [{"path": "/app_preflight_dev", "query": `${request.url}`}],
     }),
     headers: {
       'Content-Type': 'application/json; charset=UTF-8', 
       'Authorization': `Bearer ${token}`
     } 
   });
-  console.log(response)
-  if (!response.ok) { return Response.json({"t": `Bearer ${token}`}) }
-  return response;
-
-  // return Response.json({ "deprecated_production": true, "deprecation_text": "Twitter has made the decision to shut down the API 😔 While expected, it is nonetheless sad. Please keep the app installed - I'll be adding support for Mastodon, and you will keep the PRO unlock, if you've purchased it.", "deprecation_tap_url": "https://google.com" });
+  return Response.json({ "deprecated_production": true, "deprecation_text": "Twitter has made the decision to shut down the API 😔 While expected, it is nonetheless sad. Please keep the app installed - I'll be adding support for Mastodon, and you will keep the PRO unlock, if you've purchased it.", "deprecation_tap_url": "https://google.com" });
 };
