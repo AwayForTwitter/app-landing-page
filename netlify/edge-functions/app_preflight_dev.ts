@@ -7,7 +7,7 @@ export default async (request: Request, context: Context) => {
     method: 'POST',
     body: JSON.stringify({
       no_sessions: true,
-      "hits": [{"path": "/app_preflight_dev", "query": `${request.url}`}],
+      "hits": [{"path": "/app_preflight_dev", "ref": `${request.url}`}],
     }),
     headers: {
       'Content-Type': 'application/json; charset=UTF-8', 
