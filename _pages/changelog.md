@@ -11,6 +11,28 @@ I'm always interested to connect and hear your feedback, so don't hesitate to re
 <br> 
 
 ### `Latest`
+# **Version 1.2.1**
+#### Bug Fixes
+- Improve layout in accessibility text sizes
+- Sometimes a loading error would show when the only message received is a from a suspended user
+
+<br>
+
+# **Version 1.2.0**
+The app got a facelift!
+
+#### What's New
+- More ergonomic account switching - swipe right or left, or use the floating menu button to switch between accounts
+- Redesign of the home with more muted colors and more prominent content
+- The deep link button on tweets is now always available, and not only when there are replies
+
+#### Bug Fixes
+- The deep link button on the DM screen would sometimes be inactive
+- Improved displayed state when there's no recent tweets available via the api
+- When you get a message from a user that's been deleted or suspended, the app will show that.
+
+<br>
+
 # **Version 1.1**
 This is the first proper update to the app with new functionality.
 
