@@ -11,6 +11,12 @@ I'm always interested to connect and hear your feedback, so don't hesitate to re
 <br> 
 
 ### `Latest`
+# **Version 1.3.0**
+- We've added the ability to see mentions - now you can easily stay on top of all the interactions happening on your Twitter account and never miss a mention or reply again. 
+- Improvements to the messages area - now you don't have to confirm concluding the conversation every time, and instead can undo the action later.
+- Added Leave a Review link in Settings
+
+<br>
 # **Version 1.2.1**
 #### Bug Fixes
 - Improve layout in accessibility text sizes

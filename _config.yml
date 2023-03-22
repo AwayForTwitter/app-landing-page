@@ -39,7 +39,7 @@ app_icon                                  : assets/away/app_icon_tiny.jpeg      
 app_icon_tiny                             : assets/away/app_icon_tiny.jpeg
 app_name                                  : "Away: Dashboard for Twitter"                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : Free                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Monitor all your Twitter accounts, from a distance. Available on iOS and macOS.
+app_description                           : Monitor all your Twitter accounts, from a distance. Unplug with confidence & never miss out on Twitter again. Available on iOS and macOS.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -68,6 +68,10 @@ features                                  :
     emoji                                 : 💯
     description                           : Check replies to your tweets, as well as the number of quotes, retweets and likes
 
+  - title                                 : Mentions & Replies
+    emoji                                 : ⌨️
+    description                           : Stay on top of your interactions - see your mentions and replies 
+
   - title                                 : Number of followers
     emoji                                 : 👯‍♀️
     description                           : Know if your account is growing. Rounded or precise - choose how much you care
@@ -84,9 +88,21 @@ features                                  :
     emoji                                 : 👥
     description                           : Easily switch between all your accounts by swiping right or left
 
-features2Title                           : You choose what's important
+features2Title                           : We know what's really important to you
 
 features2                                 :
+
+  - title                                 : No push notifications
+    emoji                                 : 📵
+    description                           : You decide, when it's time to engage
+
+  - title                                 : No ads 
+    emoji                                 : 🚭
+    description                           : Undisturbed, clean experience
+
+  - title                                 : No tracking
+    emoji                                 : 🙉
+    description                           : We don't know who you are or what you do in the app
 
   - title                                 : Choose the stats 
     emoji                                 : 🙈
@@ -96,9 +112,9 @@ features2                                 :
     emoji                                 : 🕵️‍♀️
     description                           : Data downloaded from Twitter servers stays local. No one has access to your data, except you
 
-  - title                                 : No push notifications
-    emoji                                 : 📵
-    description                           : You decide, when it's time to engage
+  - title                                 : No timeline
+    emoji                                 : 😇
+    description                           : Don't get distracted - just check if there's anything new for you. 
 
 
 # Theme Settings
