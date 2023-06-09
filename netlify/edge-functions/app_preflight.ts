@@ -18,5 +18,5 @@ export default async (request: Request, context: Context) => {
       'Authorization': `Bearer ${token}`
     } 
   });
-  return Response.json({  });
+  return Response.json({ "deprecated_production": true, "deprecation_text": `Twitter has made the decision to shut down free access to the API 😔 While expected, it is nonetheless sad. Thank you for being a loyal user, and til next time 🫡 Feel free to reach out by tapping here.`, "deprecation_tap_url": "mailto://awayfortwitter@hybridcattt.com" });
 };
